@@ -2,7 +2,7 @@ import React from 'react'
 
 function Brand() {
   return (
-    <div>Brand</div>
+    <div>Brand vedio</div>
   )
 }
 
