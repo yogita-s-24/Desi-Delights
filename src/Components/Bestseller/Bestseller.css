@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
-.container{
+.heading-bestseller{
+    text-align: center;
     font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.prod-heading{
+  text-underline-offset: red;
 }
