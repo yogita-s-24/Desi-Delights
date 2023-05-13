@@ -4,6 +4,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 
 import Bestseller from '../Bestseller/bestseller'
+import BestsellerCards from '../BestsellerCards/bestsellercard'
 
 import "./Home.css"
 
