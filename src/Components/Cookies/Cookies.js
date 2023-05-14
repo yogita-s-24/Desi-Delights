@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
 
 function Cookies() {
   return (
-    <div>Cookies</div>
+    <div>
+      <Navbar/>
+      Cookies</div>
   )
 }
 
