@@ -1,9 +1,37 @@
 .bestsellerCard{
-    
+    height: 325px;
+    width: 200px;
+    margin: 20px 20px;
+    background-color: white;
+    border-radius: 10px;
+
 
 }
 
 .img-heading{
-    width: 100px;
-    
+    width: 200px;
+    height:200px;
+    border-radius: 10px; 
+}
+
+.name-header{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+.card-btn{
+    height: 30px;
+    background-color: #810CA8;
+    background-color: #E5B8F4 ;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 1px solid ;
+    border-radius: 10px;
+
+}
+.amount-txt{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+
 }
