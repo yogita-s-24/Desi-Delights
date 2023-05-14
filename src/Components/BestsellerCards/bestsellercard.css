@@ -4,14 +4,16 @@
     margin: 20px 20px;
     background-color: white;
     border-radius: 10px;
-
+    border: solid 1px #E5B8F4;
+   
 
 }
 
 .img-heading{
     width: 200px;
     height:200px;
-    border-radius: 10px; 
+    border-radius: 10px;
+    padding: 10px; 
 }
 
 .name-header{
