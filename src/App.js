@@ -18,21 +18,40 @@ import Login from './Components/Login/Login';
 
 
 function App() {
-  return (
-    <>
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/beverages" element={<Beverages/>}/>
-        <Route path="/savories" element={<Savories/>}/>
-        <Route path="/sweets" element={<Sweets/>}/>
-        <Route path="/gifting" element={<Gifting/>}/>
-        <Route path="/cookies" element={<Cookies/>}/>
-        <Route path="/login" element={<Login/>}/>
-      </Routes>
-      </BrowserRouter>
-    </>
-  );
+
+    return ( <
+        >
+        <
+        BrowserRouter >
+        <
+        Routes >
+        <
+        Route path = "/"
+        element = { < Home / > }
+        /> <
+        Route path = "/beverages"
+        element = { < Beverages / > }
+        /> <
+        Route path = "/savories"
+        element = { < Savories / > }
+        /> <
+        Route path = "/sweets"
+        element = { < Sweets / > }
+        /> <
+        Route path = "/gifting"
+        element = { < Gifting / > }
+        /> <
+        Route path = "/cookies"
+        element = { < Cookies / > }
+        /> <
+        Route path = "/login"
+        element = { < Login / > }
+        /> <
+        /Routes> <
+        /BrowserRouter> <
+        />
+    );
+
 }
 
 export default App;
