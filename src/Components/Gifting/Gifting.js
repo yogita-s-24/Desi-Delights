@@ -1,14 +1,20 @@
-import "./Gifting.css"
-import Navbar from "../Navbar/Navbar"
-
+import "./Gifting.css";
+import Navbar from "../Navbar/Navbar";
+import GiftCard from "./GiftCard"
 
 function Gifting() {
-    return ( < div >
+    return ( <
+        div >
         <
         Navbar / >
-        Gifting < /div>
+        <
+        h2 > hello💝 < /h2> <
+        GiftCard title = "Card"
+        Description = " Hello" > < /GiftCard>
 
-    )
+        <
+        /div>
+    );
 }
 
 export default Gifting;
