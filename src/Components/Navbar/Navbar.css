@@ -1,3 +1,18 @@
+
+#nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+ .navbar-bg{
+    background-color: #E5B8F4;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+}
+
+
+
 /* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 
@@ -50,15 +65,3 @@
     
 }
  */
-
- #nav{
-    display: flex;
-    position: sticky;
-    top: 0;
- }
- .navbar-bg{
-    background-color: #E5B8F4;
-    padding: 10px;
-    position: absolute;
-    top: 0px;
- }

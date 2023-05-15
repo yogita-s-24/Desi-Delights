@@ -6,11 +6,7 @@
     font-weight: bold;
 }
 
-.prod-heading{
-  text-underline-offset: red;
+.product-group{
+  display: flex;
 }
 
-.prod-cards{
-  height: 400px;
-  border: solid 2px black;
-}

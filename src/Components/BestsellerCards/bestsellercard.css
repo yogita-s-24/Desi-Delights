@@ -1,4 +1,4 @@
-.bestsellerCard{
+/* .bestsellerCard{
     height: 325px;
     width: 200px;
     margin: 20px 20px;
@@ -40,4 +40,10 @@
 
 .prod-cards{
     
+} */
+
+.menu-card {
+    width: 250px;
+    height: 400px;
+    padding: 5px;
 }

@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Bestseller from './Components/Bestseller/bestseller';
 import BestsellerCards from './Components/BestsellerCards/bestsellercard';
+import Slider from './Components/Slider/Slider'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
