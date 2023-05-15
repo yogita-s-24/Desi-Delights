@@ -1,0 +1,11 @@
+.savy-img{
+    height: 300px;
+    width: 100%;
+}
+.full-container{
+    background-color: #E5B8F4;
+}
+.card-savy{
+    display: block;
+    flex-direction: row;
+}
