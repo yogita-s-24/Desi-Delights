@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+.product-group{
+  display: flex;
+  background-color:white;
+  border-radius: 20px;
+}
+
+.heading-bestseller{
+  color:bplack;
+ padding-top: 45px;}
+
+.product-menu{
+  font-size: 10px;
+}
