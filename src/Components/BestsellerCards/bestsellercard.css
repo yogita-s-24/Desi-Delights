@@ -1,0 +1,20 @@
+
+.menu-card {
+    width: 250px;
+    height: 400px;
+    padding: 5px;
+
+}
+
+.btn-info-color{
+    background-color: #E5B8F4;
+    border: black 1px solid;
+}
+.btn-info-color:hover{
+    background-color: #2c033a;
+    color:white;
+    border: white 1px solid;
+}
+.card-font{
+    font-size: 15px;
+}

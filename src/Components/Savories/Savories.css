@@ -1,11 +1,15 @@
-.savy-img{
-    height: 300px;
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+.product-group{
+  display: flex;
+  background-color: #dd99aa40;
+  border-radius: 20px;
 }
-.full-container{
-    background-color: #E5B8F4;
+
+.heading-bestseller{
+  color:black;
 }
-.card-savy{
-    display: block;
-    flex-direction: row;
+
+.product-menu{
+  font-size: 10px;
 }

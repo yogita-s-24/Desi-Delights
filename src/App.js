@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Bestseller from './Components/Bestseller/bestseller';
 import BestsellerCards from './Components/BestsellerCards/bestsellercard';
+import Slider from './Components/Slider/Slider'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -15,24 +16,28 @@ import Sweets from './Components/Sweets/Sweets';
 import Gifting from './Components/Gifting/Gifting';
 import Cookies from './Components/Cookies/Cookies';
 import Login from './Components/Login/Login';
+import SignIn from './Components/SignIn/SignIn';
 
 
 function App() {
-  return (
-    <>
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/beverages" element={<Beverages/>}/>
-        <Route path="/savories" element={<Savories/>}/>
-        <Route path="/sweets" element={<Sweets/>}/>
-        <Route path="/gifting" element={<Gifting/>}/>
-        <Route path="/cookies" element={<Cookies/>}/>
-        <Route path="/login" element={<Login/>}/>
-      </Routes>
-      </BrowserRouter>
-    </>
-  );
+
+    return ( 
+  
+        < BrowserRouter >
+            < Routes >
+                <Route path="/" element={< Home />}/> 
+                <Route path="/beverages" element={< Beverages />} />
+                 <Route path="/savories" element={< Savories />}  /> 
+                < Route path="/sweets" element={< Sweets />} /> 
+                < Route path="/gifting" element={< Gifting />}/>
+                 < Route path="/cookies" element={< Cookies />}/> 
+                < Route path="/login" element={< Login />}/>
+                < Route path="/signin" element={< SignIn />}/>
+                 </Routes> 
+                 </BrowserRouter>
+            
+                );
+
 }
 
-export default App;
+                export default App;

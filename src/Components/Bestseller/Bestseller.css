@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
+.product-group{
+  display: flex;
+  background-color: #dd99aa40;
+  border-radius: 20px;
+}
+
 .heading-bestseller{
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
+  color:black;
 }
 
-.prod-heading{
-  text-underline-offset: red;
+.product-menu{
+  font-size: 10px;
 }
-
