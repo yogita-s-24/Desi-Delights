@@ -8,23 +8,8 @@ import addIcons from "../../logo.jpeg"
 function Navbar() {
   return (
     <>
-    {/* // <nav id='navbar-nav'>
-    //   <div classNameName="navbar-heading">
-    //     <div id="logo">
-    //       <img src={addIcons} classNameName="logo" id="icon"/>
-    //     <Link to="/" classNameName="navbar-menu">Home</Link>
-    //     <Link to="/beverages" classNameName="navbar-menu">Beverages</Link>
-    //     <Link to="/savories" classNameName="navbar-menu">Savories</Link>
-    //     <Link to="/sweets" classNameName="navbar-menu">Sweets</Link>
-    //     <Link to="/gifting" classNameName="navbar-menu">Gifting</Link>
-    //     <Link to="/cookies" classNameName="navbar-menu">Cookies</Link>
-    //     <Link to="/login" classNameName="navbar-menu"> Login </Link>
-    //     </div>
 
-    //   </div>
-    // </nav> */}
-
-<nav className="navbar navbar-expand-lg bg-body-tertiary navbar-nav" id="nav">
+<nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top " id="nav">
 <div className="container-fluid navbar-bg">
   <Link  className="navbar-brand" to="/">Desi Delights</Link >
   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
