@@ -11,7 +11,7 @@ function bestsellercard({name,imgUrl,btn,price}) {
     <div className="card menu-card">
       <img src={imgUrl} className="card-img-top" alt="img"/>
       <div className="card-body">
-        <h5 className="card-title">{name}</h5>
+        <h5 className="card-title card-font">{name}</h5>
         <p className="card-text">{price}</p>
         <button className='btn btn-info-color'>{btn}</button>
       </div>
