@@ -13,7 +13,7 @@ function Slider() {
           <div className="carousel-item active">
             <Link to="/">
               <img
-                src="https://www.haldirams.com/media//banneruploader/tmp/banner_image_path/Mothers_Day_Web.png"
+                src="https://www.haldirams.com/media//banneruploader/tmp/banner_image_path/Summer_Banner_2.png"
                 className="d-block w-100"
                 alt="..."
               />
