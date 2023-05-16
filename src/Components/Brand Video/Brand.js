@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
+import './Brand.css'
 
 function Brand() {
   return (
-    <div>Brand vedio</div>
+    <div> 
+      <Navbar/>
+      </div>
+    
   )
 }
 
