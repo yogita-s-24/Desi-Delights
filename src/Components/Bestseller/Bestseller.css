@@ -9,5 +9,10 @@
 
 .heading-bestseller{
   color:black;
-  margin-bottom: -65px;
+  /* margin-bottom: -65px; */
+}
+
+
+.product-menu{
+  flex-wrap: wrap;
 }

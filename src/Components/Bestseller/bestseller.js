@@ -28,7 +28,7 @@ function Bestseller() {
 <BestsellerCards className="product-menu" name="Mango Drink - (150ml - Pack of 20)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/2/_/2_4_6.jpg" price="₹ 200" btn="Add To Cart"/>
 </div>
 
-<div className='product-group  p-5  '>
+<div className='product-group  p-5 m-5'>
 <BestsellerCards className="product-menu" name="Classic Lassi - (180ml - Pack 0f 15)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/l/a/lassi_6.jpg" price="₹ 300" btn="Add To Cart"/>
 <BestsellerCards className="product-menu" name="Vanila Milkshake -(180ml - Pack of 10)  " imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/v/a/vanila_milk_shake.jpg" price="₹ 300" btn="Add To Cart"/>
 <BestsellerCards className="product-menu" name="Matka Jhatka Chaas - (180ml - Pack of 15)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/m/a/matka_jhatka.jpg" price="₹ 300" btn="Add To Cart"/>
@@ -36,6 +36,13 @@ function Bestseller() {
 
 <h2 class="mt-5 text-center heading-bestseller">Categories</h2>
 <div className='product-group  p-5 m-5'>
+<BestsellerCards className="product-menu" name="Kaju Katli" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/k/a/kaju_katli_2_2.jpg" price="₹ 300" btn="Add To Cart"/>
+<BestsellerCards className="product-menu" name="Kaju Katli" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/k/a/kaju_katli_2_2.jpg" price="₹ 300" btn="Add To Cart"/>
+<BestsellerCards className="product-menu" name="Kaju Katli" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/k/a/kaju_katli_2_2.jpg" price="₹ 300" btn="Add To Cart"/>
+</div>
+
+<div className='product-group  p-5 m-5'>
+<BestsellerCards className="product-menu" name="Kaju Katli" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/k/a/kaju_katli_2_2.jpg" price="₹ 300" btn="Add To Cart"/>
 <BestsellerCards className="product-menu" name="Kaju Katli" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/k/a/kaju_katli_2_2.jpg" price="₹ 300" btn="Add To Cart"/>
 <BestsellerCards className="product-menu" name="Kaju Katli" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/k/a/kaju_katli_2_2.jpg" price="₹ 300" btn="Add To Cart"/>
 </div>
