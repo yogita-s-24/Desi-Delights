@@ -19,6 +19,7 @@ function Slider() {
               />
             </Link>
           </div>
+
           <div className="carousel-item">
             <Link to="/beverages">
               <img
@@ -28,6 +29,7 @@ function Slider() {
               />
             </Link>
           </div>
+
           <div className="carousel-item">
             <Link to="/savories">
               <img
@@ -37,6 +39,7 @@ function Slider() {
               />
             </Link>
           </div>
+
           <div className="carousel-item">
             <Link to="sweets">
               <img
@@ -46,6 +49,36 @@ function Slider() {
               />
             </Link>
           </div>
+
+          <div className="carousel-item">
+            <Link to="sweets">
+              <img
+                src="https://www.haldirams.com/media/catalog/tmp/category/packed_sweets_1.jpg"
+                className="d-block w-100"
+                alt="..."
+              />
+            </Link>
+          </div>
+
+          <div className="carousel-item">
+            <Link to="sweets">
+              <img
+                src="https://www.haldirams.com/media/catalog/tmp/category/exotic_collections.jpg"
+                className="d-block w-100"
+                alt="..."
+              />
+            </Link>
+          </div>
+          <div className="carousel-item">
+            <Link to="sweets">
+              <img
+                src="https://www.haldirams.com/media/catalog/tmp/category/tine_sweets.jpg"
+                className="d-block w-100"
+                alt="..."
+              />
+            </Link>
+          </div>
+
           <div className="carousel-item">
             <Link to="/gifting">
               <img
@@ -55,6 +88,17 @@ function Slider() {
               />
             </Link>
           </div>
+
+          <div className="carousel-item">
+            <Link to="/gifting">
+              <img
+                src="https://www.haldirams.com/media/catalog/tmp/category/dy_fruit.jpg"
+                className="d-block w-100"
+                alt="..."
+              />
+            </Link>
+          </div>
+          
           <div className="carousel-item">
             <Link to="/cookies">
               <img
