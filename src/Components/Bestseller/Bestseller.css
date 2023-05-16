@@ -2,14 +2,12 @@
 
 .product-group{
   display: flex;
-  background-color: #dd99aa40;
+  background-color: #dd99aa0f;
   border-radius: 20px;
+  
 }
 
 .heading-bestseller{
   color:black;
-}
-
-.product-menu{
-  font-size: 10px;
+  margin-bottom: -65px;
 }
