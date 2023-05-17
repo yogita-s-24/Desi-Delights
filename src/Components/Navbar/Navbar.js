@@ -35,15 +35,6 @@ function Navbar() {
       <li className="nav-item">
         <Link  className="nav-link active" aria-current="page" to="/cookies">Cookies</Link >
       </li>
-      <li className="nav-item dropdown">
-        <Link  className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Videos
-        </Link >
-        <ul className="dropdown-menu">
-          <li><Link  className="dropdown-item" to="/navbarrecipevideo">Recipe Video</Link ></li>
-          <li><Link  className="dropdown-item" to="/navbarbrandvideo">Brand Video</Link ></li>
-        </ul>
-      </li>
       <li className="nav-item">
         <Link  className="nav-link active login" aria-current="page" to="/login">Login</Link >
       </li>

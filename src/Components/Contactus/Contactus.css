@@ -1,8 +1,18 @@
-.contact-heading{
-    text-align: center;
+.content{
+    background-color: #2c033a;
+    padding: 20px;
+    border-radius:20px;
+    width: 400px;
+    border: solid 1px #2c033a;
 }
 
-.main-container{
-    background-color: rgb(199, 125, 27);
-    height: 600px;
+.button{
+    background-color: #E5B8F4;
+}
+.button:hover{
+    background-color: #E5B8F4;
+}
+
+input{
+    
 }

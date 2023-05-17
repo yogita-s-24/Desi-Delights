@@ -8,6 +8,7 @@ import Slider from '../Slider/Slider'
 import Bestseller from '../Bestseller/bestseller'
 import BestsellerCards from '../BestsellerCards/bestsellercard'
 import Contactus from '../Contactus/Contactus'
+import Footer from '../Footer/Footer'
 
 
 
@@ -19,6 +20,7 @@ function Home() {
       <Slider/>
       <Bestseller />
       <Contactus/>
+      <Footer/>
     </div>
   )
 }

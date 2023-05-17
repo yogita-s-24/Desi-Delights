@@ -15,31 +15,29 @@ import Savories from './Components/Savories/Savories';
 import Sweets from './Components/Sweets/Sweets';
 import Gifting from './Components/Gifting/Gifting';
 import Cookies from './Components/Cookies/Cookies';
-import Video from './Components/Video/Video';
 import Login from './Components/Login/Login';
 import SignIn from './Components/SignIn/SignIn';
 
 
 function App() {
 
-    return ( 
-  
+    return (
+
         < BrowserRouter >
             < Routes >
-                <Route path="/" element={< Home />}/> 
+                <Route path="/" element={< Home />} />
                 <Route path="/beverages" element={< Beverages />} />
-                 <Route path="/savories" element={< Savories />}  /> 
-                < Route path="/sweets" element={< Sweets />} /> 
-                < Route path="/gifting" element={< Gifting />}/>
-                 < Route path="/cookies" element={< Cookies />}/> 
-                 < Route path="/video" element={< Video />}/> 
-                < Route path="/login" element={< Login />}/>
-                < Route path="/signin" element={< SignIn />}/>
-                 </Routes> 
-                 </BrowserRouter>
-            
-                );
+                <Route path="/savories" element={< Savories />} />
+                < Route path="/sweets" element={< Sweets />} />
+                < Route path="/gifting" element={< Gifting />} />
+                < Route path="/cookies" element={< Cookies />} />
+                < Route path="/login" element={< Login />} />
+                < Route path="/signin" element={< SignIn />} />
+            </Routes>
+        </BrowserRouter>
+
+    );
 
 }
 
-                export default App;
+export default App;
