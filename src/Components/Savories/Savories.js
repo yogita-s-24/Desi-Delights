@@ -21,6 +21,11 @@ function Savories() {
 <BestsellerCards className="product-menu" name="Vermiceil" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/v/e/vermicellii-400g-front.jpg" price="₹ 100" btn="Add To Cart"/>
 <BestsellerCards className="product-menu" name="Khatta Meetha" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/k/h/khatta_mitha_200_front.jpeg" price="₹ 325" btn="Add To Cart"/>
 </div>
+<div className='product-group p-5 m-5'>
+<BestsellerCards className="product-menu" name="Lemon Bhel(200 gms)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/l/e/lemon_bhel_front_200gm.jpg" price="₹ 47" btn="Add To Cart"/>
+<BestsellerCards className="product-menu" name="Punjabi tadka(200 gms)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/p/u/punjabi_tadka_front.jpg" price="₹ 100" btn="Add To Cart"/>
+<BestsellerCards className="product-menu" name="Ratlami shev(200 gms)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/i/m/img-20220903-wa0002.jpg" price="₹ 42" btn="Add To Cart"/>
+</div>
 
 
 <h2 class="mt-5 text-center heading-bestseller">Papad</h2>
