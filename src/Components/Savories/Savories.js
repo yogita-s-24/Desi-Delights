@@ -55,6 +55,11 @@ function Savories() {
 <BestsellerCards className="product-menu" name="Masala sticks(200 gms)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/c/h/chai_k_saath_ms.jpg" price="₹  75" btn="Add To Cart"/>
 <BestsellerCards className="product-menu" name="Namkeen Sticks (200 gms)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/c/h/chai_k_saath_ns.jpg" price="₹ 45" btn="Add To Cart"/>
 </div>
+<div className='product-group  p-5 m-5'>
+<BestsellerCards className="product-menu" name="Mathri (200 gms)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/m/a/mathari.jpg" price="₹ 85" btn="Add To Cart"/>
+<BestsellerCards className="product-menu" name="Jira puri(200 gms)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/j/e/jeera_puri.jpg" price="₹  75" btn="Add To Cart"/>
+<BestsellerCards className="product-menu" name="Methi Sticks (200 gms)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/m/e/methi_sticks.jpg" price="₹ 60" btn="Add To Cart"/>
+</div>
 
 </div>
 </>
