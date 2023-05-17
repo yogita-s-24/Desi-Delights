@@ -2,6 +2,7 @@ import './Savories.css'
 import Navbar from '../Navbar/Navbar'
 import BestsellerCards from '../BestsellerCards/bestsellercard'
 import { Link } from "react-router-dom"
+import Footer from '../Footer/Footer'
 
 function Savories() {
   return (
@@ -81,6 +82,7 @@ function Savories() {
 </div>
 
 </div>
+<Footer />
 </>
 
   )
