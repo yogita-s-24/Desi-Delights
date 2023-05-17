@@ -40,8 +40,8 @@ function Navbar() {
           Videos
         </Link >
         <ul className="dropdown-menu">
-          <li><Link  className="dropdown-item" to="/recipe">Recipe Video</Link ></li>
-          <li><Link  className="dropdown-item" to="/brand">Brand Video</Link ></li>
+          <li><Link  className="dropdown-item" to="/navbarrecipevideo">Recipe Video</Link ></li>
+          <li><Link  className="dropdown-item" to="/navbarbrandvideo">Brand Video</Link ></li>
         </ul>
       </li>
       <li className="nav-item">

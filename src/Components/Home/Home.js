@@ -1,13 +1,14 @@
 
 import React from 'react'
 
-import Navbar from '../Navbar/Navbar'
+import "./Home.css"
 
+import Navbar from '../Navbar/Navbar'
+import Slider from '../Slider/Slider'
 import Bestseller from '../Bestseller/bestseller'
 import BestsellerCards from '../BestsellerCards/bestsellercard'
+import Contactus from '../Contactus/Contactus'
 
-import "./Home.css"
-import Slider from '../Slider/Slider'
 
 
 
@@ -17,6 +18,7 @@ function Home() {
       <Navbar />
       <Slider/>
       <Bestseller />
+      <Contactus/>
     </div>
   )
 }
