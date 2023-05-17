@@ -13,3 +13,21 @@
 .product-menu{
   font-size: 10px;
 }
+
+@media screen and (max-width: 600px)
+{
+  .product-group{
+    display: block;
+    flex-direction: column;
+    background-color: #dd99aa40;
+    border-radius: 20px;
+  }
+  .menu-card {
+    width: 250px;
+    height: 375px;
+    padding: 4px;
+    margin: 10px;
+
+  }
+       
+}
