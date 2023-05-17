@@ -2,11 +2,12 @@
 import React from 'react'
  import Navbar from '../Navbar/Navbar'
  import BeveragesCards from '../BeveragesCards/BeveragesCards'
+ import Footer from '../Footer/Footer'
    function Beverages() {
   return (
     <> 
      <Navbar/>
-     <img src='https://www.haldirams.com/media/catalog/tmp/category/beverages_1_.jpg'/>
+     <img src='https://www.haldirams.com/media/catalog/tmp/category/beverages_1_.jpg'alt=''/>
     <div className='container'> 
     <h2 className="mt-5 text-center heading-bestseller">Beverages</h2>
 
@@ -42,9 +43,9 @@ import React from 'react'
          <BeveragesCards className='product-menu'imgurl='https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/c/h/chocolate_milk.jpg'name='Thanda Funda - Chocolate Milk (180ml - Pack of 12)'price='₹240'btn="Add To Cart"/>
      </div>
      
-
-    </div>
-    </>
+     </div>
+     <Footer/>
+   </>
   )
 }
 
