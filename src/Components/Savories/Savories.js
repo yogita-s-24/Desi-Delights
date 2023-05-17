@@ -38,7 +38,10 @@ function Savories() {
 <div className='product-group  p-5 m-5'>
 <BestsellerCards className="product-menu" name="Udad Papad(200gms)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/u/d/udadsmall2.jpg" price="₹ 75" btn="Add To Cart"/>
 <BestsellerCards className="product-menu" name="Red Chilli Papad(200gms)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/i/m/img-20230313-wa0008.jpg" price="₹ 300" btn="Add To Cart"/>
-<BestsellerCards className="product-menu" name="Mnoog Papad" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/m/o/moongpapadsmall1.jpg" price="₹ 335" btn="Add To Cart"/>
+<BestsellerCards className="product-menu" name="Bikneri katran papad(1 kg)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/b/k/bklarge1.jpg" price="₹ 225" btn="Add To Cart"/>
+</div>
+<div className='product-group  p-5 m-5'>
+<BestsellerCards className="product-menu" name="Moong Papad" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/m/o/moongpapadsmall1.jpg" price="₹ 335" btn="Add To Cart"/>
 </div>
 
 <h2 class="mt-5 text-center heading-bestseller">Mathri</h2>
