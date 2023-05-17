@@ -13,7 +13,7 @@ function Savories() {
 <div className='product-group  p-5 m-5'>
   <Link to="../Savories/namkeen">
     <img src="https://www.haldirams.com/media/catalog/tmp/category/namkeen.jpg" 
-    className="img-savier" />
+    className="img-savie" />
   </Link>
 </div>
 <div className='product-group p-5 m-5'>
@@ -38,7 +38,7 @@ function Savories() {
 <div className='product-group  p-5 m-5'>
   <Link to="../Savories/Papad">
     <img src="https://www.haldirams.com/media/catalog/tmp/category/papad.jpg" 
-    className="img-savier" />
+    className="img-savie" />
   </Link>
 </div>
 
@@ -61,7 +61,7 @@ function Savories() {
 <div className='product-group  p-5 m-5'>
   <Link to="../Savories/Mathri">
     <img src="https://www.haldirams.com/media/catalog/tmp/category/mathari.jpg" 
-    className="img-savier" />
+    className="img-savie" />
   </Link>
 </div>
 <div className='product-group  p-5 m-5'>
