@@ -1,15 +1,21 @@
 import './Savories.css'
 import Navbar from '../Navbar/Navbar'
 import BestsellerCards from '../BestsellerCards/bestsellercard'
+import { Link } from "react-router-dom"
 
 function Savories() {
   return (
     <>
   <Navbar/>
-  <img src="https://www.haldirams.com/media/catalog/tmp/category/savouries.jpg" className="img-savier" id="same" />
+  <img src="https://www.haldirams.com/media/catalog/tmp/category/savouries.jpg" id="same" />
 <div className='container'>
 <h2 class="mt-5 text-center heading-bestseller">NAMKEEN</h2>
-
+<div className='product-group  p-5 m-5'>
+  <Link to="../Savories/namkeen">
+    <img src="https://www.haldirams.com/media/catalog/tmp/category/namkeen.jpg" 
+    className="img-savier" />
+  </Link>
+</div>
 <div className='product-group p-5 m-5'>
 <BestsellerCards className="product-menu" name="Bhuji shev" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/b/h/bhujiya_sev_200_front.jpg" price="₹ 55" btn="Add To Cart"/>
 <BestsellerCards className="product-menu" name="Bhel puri" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/b/h/bhel_puri.jpg" price="₹ 55" btn="Add To Cart"/>
@@ -30,6 +36,13 @@ function Savories() {
 
 <h2 class="mt-5 text-center heading-bestseller">Papad</h2>
 <div className='product-group  p-5 m-5'>
+  <Link to="../Savories/Papad">
+    <img src="https://www.haldirams.com/media/catalog/tmp/category/papad.jpg" 
+    className="img-savier" />
+  </Link>
+</div>
+
+<div className='product-group  p-5 m-5'>
 <BestsellerCards className="product-menu" name="Coin papad(1 kg)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/c/p/cplarge1.jpg" price="₹ 235" btn="Add To Cart"/>
 <BestsellerCards className="product-menu" name="Bikneri papad" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/b/p/bpsmall1.jpg" price="₹ 245" btn="Add To Cart"/>
 <BestsellerCards className="product-menu" name="Punjabi papad" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/p/u/punjabi_papad.jpg" price="₹ 265" btn="Add To Cart"/>
@@ -45,6 +58,12 @@ function Savories() {
 </div>
 
 <h2 class="mt-5 text-center heading-bestseller">Mathri</h2>
+<div className='product-group  p-5 m-5'>
+  <Link to="../Savories/Mathri">
+    <img src="https://www.haldirams.com/media/catalog/tmp/category/mathari.jpg" 
+    className="img-savier" />
+  </Link>
+</div>
 <div className='product-group  p-5 m-5'>
 <BestsellerCards className="product-menu" name="Kerala Sticks (200 gms)" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/k/a/karela_stick.jpg" price="₹ 65" btn="Add To Cart"/>
 <BestsellerCards className="product-menu" name="Chai Puri(200 gms" imgUrl="https://www.haldirams.com/media/catalog/product/cache/d792111afa4c25819db06da8dd2e361f/c/h/chai_puri.jpg" price="₹ 85" btn="Add To Cart"/>
@@ -63,6 +82,7 @@ function Savories() {
 
 </div>
 </>
+
   )
 }
 
