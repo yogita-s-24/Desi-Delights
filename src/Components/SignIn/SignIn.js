@@ -9,7 +9,7 @@ function SignIn() {
     <Navbar/>
     <br/><br/><br/><br/>
     <div class="signup-box">
-    <h1>signup</h1>
+    <h1>SignIn</h1>
     <h4>It's free and only takes a minute</h4>
     <form>
     <label>First Name</label>
@@ -25,12 +25,12 @@ function SignIn() {
      <input type="button" value="submit"/>
    
     </form> 
-    <p>By clicking the Sign Up button,you agree to our<br/>
+    <p>By clicking the SignIn button,you agree to our<br/>
     <a href="#">Terms and Condition</a> and <a href="#" id="">Policy Privacy</a>
     </p>
     
 
-    <div class="link1">Already have an account?<a class="login-a" href="login.html">Login here</a>
+    <div class="link1">Already have an account?<a class="login-a" href="login">Login here</a>
     </div> 
     </div>  
     
