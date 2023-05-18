@@ -12,7 +12,7 @@ function Savories() {
 <div className='container'>
 <h2 class="mt-5 text-center heading-bestseller">NAMKEEN</h2>
 <div className='product-group  p-5 m-5'>
-  <Link to="../Savories/namkeen">
+  <Link to="../savories/namkeen">
     <img src="https://www.haldirams.com/media/catalog/tmp/category/namkeen.jpg" 
     className="img-savie" />
   </Link>
