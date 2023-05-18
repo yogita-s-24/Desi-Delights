@@ -21,10 +21,10 @@ function Footer() {
           <li>Careers</li>
           <li><Link to="/contactus">Contact Us</Link></li>
           <br />
-          {/* <h5>VIDEOS</h5>
+          <h5>VIDEOS</h5>
            
               <a href="/brand"> <li>Brand Videos</li></a>
-              <a href="/recipe"> <li>Recipe Videos</li></a> */}
+              <a href="/recipe"> <li>Recipe Videos</li></a>
 
         </div>
         <div className='heading-content'>
