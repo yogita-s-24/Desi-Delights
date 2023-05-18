@@ -6,7 +6,7 @@ function Cookies() {
   return (
     <div>
       <Navbar/>
-      <img src="https://www.haldirams.com/media/catalog/tmp/category/cookies_2.jpg"  />
+      <img src="https://www.haldirams.com/media/catalog/tmp/category/cookies_2.jpg" />
       Cookies</div>
 
   )

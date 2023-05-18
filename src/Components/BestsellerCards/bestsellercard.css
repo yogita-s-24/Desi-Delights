@@ -1,19 +1,39 @@
-
 .menu-card {
     width: 250px;
-    /* height: 400px; */
-    /* padding: 5px; */
+    border: solid 1px black;
 }
 
-.btn-info-color{
-    background-color: #f1e2f1;
+#buttons {
+    background-color: #ff6666;
     border: black 1px solid;
 }
-.btn-info-color:hover{
-    background-color: #2c033a;
+
+/* #button:hover{
     color:white;
     border: white 1px solid;
-}
-.card-font{
+} */
+.card-font {
     font-size: 15px;
+}
+
+.positive {
+    background-color: #f2a81e;
+    height: 30px;
+    margin: 5px;
+}
+
+.negative {
+    background-color: #f2a81e;
+    height: 30px;
+    margin: 5px;
+}
+
+.positive:hover {
+    background-color: #f2a81e;
+    border: black solid 1px;
+}
+
+.negative:hover {
+    background-color: #f2a81e;
+    border: black solid 1px;
 }
