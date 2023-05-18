@@ -1,13 +1,18 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
-import Registration from '../Registration/Registration'
+
+import "./SignIn.css"
 
 function SignIn() {
   return (
-    <div>
-        <Navbar/>
-        <Registration/>
-    </div>
+    <>
+    <Navbar/>
+    <br/><br/><br/><br/>
+     <h1>SignIn</h1> 
+    </>
+
+   
+  
   )
 }
 

@@ -2,7 +2,7 @@
 import React from 'react'
  import Navbar from '../Navbar/Navbar'
  import BeveragesCards from '../BeveragesCards/BeveragesCards'
- import Footer from '../Footer/Footer'
+import Footer from '../Footer/Footer'
    function Beverages() {
   return (
     <> 
