@@ -1,12 +1,10 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 
- function about() {
+ function Aboutus() {
   return (
-    
-    
     <div>
-        <Navbar/>
+      <Navbar/>
     </div>
   )
 }
