@@ -22,7 +22,7 @@ function SignIn() {
      <input type="password" placeholder=""/>
      <label>Confirmed Password</label>
      <input type="password" placeholder=""/>
-     <input type="button" value="submit"/>
+     <input type="button" value="Submit"/>
    
     </form> 
     <p>By clicking the SignIn button,you agree to our<br/>

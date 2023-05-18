@@ -10,8 +10,8 @@
     margin-right: 10px;
     margin-top: 40px;
     border-radius: 10px;
-    background-color: #92E3A9;
-    border:5px solid #92E3A9;
+    background-color: #f8bec5;
+    border:5px solid #a7c6e4;
     cursor: pointer;
 }
 h1{
@@ -42,14 +42,14 @@ input[type="button"]{
     height:40px;
     margin-top: 20px;
     border:none;
-    background-color:limegreen;
+    background-color:rgb(238, 156, 168);
     color:white;
     font-size:18px;
     cursor: pointer;
 }
 input[type="button"]:hover{
-    background-color:cornflowerblue;
-    color:blue;
+    background-color:rgb(189, 137, 160);
+    color:rgb(227, 176, 196);
 }
 p{
     text-align: center;

@@ -17,9 +17,8 @@ function Login() {
      <input type="email" placeholder=""/>
      <label>Password</label>
      <input type="password" placeholder=""/>
-     <input type="button" value="submit"/>
+     <input type="button" value="Submit"/>
    </form> 
-    
     <div class="link2">Not have an account?<a class="signup-a" href="signIn">SignIn here</a>  
     </div>
     </div>
