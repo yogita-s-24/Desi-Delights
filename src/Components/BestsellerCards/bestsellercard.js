@@ -2,7 +2,9 @@ import React from 'react'
 
 import "./bestsellercard.css"
 
-function bestsellercard({name,imgUrl,btn,price}) {
+function bestsellercard({name,imgUrl,btn1,text,btn2,btn,price}) {
+
+  
   return (
     <>
     <div className='container text-center'>
@@ -13,7 +15,10 @@ function bestsellercard({name,imgUrl,btn,price}) {
       <div className="card-body">
         <h5 className="card-title card-font">{name}</h5>
         <p className="card-text">{price}</p>
-        <button className='btn btn-info-color'>{btn}</button>
+        <button className='btn text-center  btn-info-color positive'>{btn1}</button>
+        <span>{text}</span>
+        <button className='btn text-center  btn-info-color negative' >{btn2}</button><br/>
+        <button className='btn btn-info-color' id="buttons" style={{backgroundColor:'red', color:'white'}}>{btn}</button>
       </div>
     </div>
   </div>

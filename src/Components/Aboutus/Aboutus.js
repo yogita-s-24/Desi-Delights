@@ -1,14 +1,10 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
-import './Brand.css'
 
-function Brand() {
+ function Aboutus() {
   return (
-    <div> 
+    <div>
       <Navbar/>
-      </div>
-    
+    </div>
   )
 }
-
-export default Brand
