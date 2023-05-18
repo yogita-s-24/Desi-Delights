@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
  .navbar-bg{
-    background-color: #f1e2f1;
+    background-color: #f2a81e;
     padding: 8px;
     position:fixed;
     width: 100%;
     top: 0px;
     box-shadow: 0px 0px 5px 1px #828282;
 }
-
-
+#item{
+    color: black;
+}
 

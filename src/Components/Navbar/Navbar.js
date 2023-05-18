@@ -18,28 +18,28 @@ function Navbar() {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
       <li className="nav-item">
-        <Link  className="nav-link active item-color" aria-current="page" to="/" style={{marginLeft:'120px'}}>Home</Link >
+        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/" style={{marginLeft:'120px'}}>Home</Link >
       </li>
       <li className="nav-item">
-        <Link  className="nav-link active item-color" aria-current="page" to="/beverages">Beverages</Link >
+        <Link  className="nav-link active item-color" id="item" aria-current="page" to="/beverages">Beverages</Link >
       </li>
       <li className="nav-item">
-        <Link  className="nav-link active item-color" aria-current="page" to="/savories"> Savories</Link >
+        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/savories"> Savories</Link >
       </li>
       <li className="nav-item ">
-        <Link  className="nav-link active item-color" aria-current="page" to="/sweet">Sweets</Link >
+        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/sweets">Sweets</Link >
       </li>
       <li className="nav-item">
-        <Link  className="nav-link active item-color" aria-current="page" to="/gifting">Gifting</Link >
+        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/gifting">Gifting</Link >
       </li>
       <li className="nav-item ">
-        <Link  className="nav-link active item-color" aria-current="page" to="/cookies">Cookies</Link >
+        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/cookies">Cookies</Link >
       </li>
       <li className="nav-item ">
-        <Link  className="nav-link active item-color" aria-current="page" to="/login">Login</Link >
+        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/aboutus">About Us</Link >
       </li>
       <li className="nav-item ">
-        <Link  className="nav-link active item-color" aria-current="page" to="/singin">SignIn</Link >
+        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/signin">SignIn</Link >
       </li>
      
     </ul>

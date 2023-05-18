@@ -1,0 +1,25 @@
+.content{
+    background-color: #f1e2f1;
+    padding: 20px;
+    border-radius:20px;
+    width: 400px;
+    border: solid 1px #2c033a;
+    z-index: 0.5;
+}
+
+.button{
+    background-color: #E5B8F4;
+    border: #2c033a solid 1px;
+
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #761e94;
+    color:white;
+    font-weight: bold;
+
+}
+
+input{
+    border-radius: 10%;
+}
