@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
+import "../GiftCards.css";
 
-function GiftCards(name, imgurl, btn, price) {
+function GiftCards({ imgurl, name, price, btn }) {
     return ( <
         >
         <
-        div className = 'container text-center' >
+        div className = "container text-center" >
         <
         div className = "row row-cols-1 row-cols-md-3 g-4 " >
         <
@@ -18,16 +19,16 @@ function GiftCards(name, imgurl, btn, price) {
         <
         div className = "card-body" >
         <
-        h5 className = "card-title card-font" > { name } < /h5> <
-        p className = "card-text" > { price } < /p> <
-        button className = 'btn btn-info-color' > { btn } < /button> <
-        /div> <
-        /div> <
-        /div> <
-        /div> <
-        /div> <
+        h5 className = "card-title card-font" > { name } < /h5>{" "} <
+        p className = "card-text" > { price } < /p>{" "} <
+        button className = "btn btn-info-color" > { btn } < /button>{" "} <
+        /div>{" "} <
+        /div>{" "} <
+        /div>{" "} <
+        /div>{" "} <
+        /div>{" "} <
         />
-    )
+    );
 }
 
-export default GiftCards
+export default GiftCards;
