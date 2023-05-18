@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+
 import './Footer.css'
 function Footer() {
   return (
@@ -19,7 +19,7 @@ function Footer() {
           <li>Food Delivery</li>
           <li>Bulk Orders</li>
           <li>Careers</li>
-          <li><Link to="/contactus">Contact Us</Link></li>
+          <li>Contact Us</li>
           <br />
           
         </div>
