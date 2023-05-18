@@ -19,7 +19,7 @@ function Footer() {
           <li>Food Delivery</li>
           <li>Bulk Orders</li>
           <li>Careers</li>
-          <li><Link to="/contactus">Contact Us</Link></li>
+          <li>Contact Us</li>
           <br />
           <h5>VIDEOS</h5>
            
