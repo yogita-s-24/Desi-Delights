@@ -8,7 +8,7 @@ function Savories() {
   return (
     <>
   <Navbar/>
-  <img src="https://www.haldirams.com/media/catalog/tmp/category/savouries.jpg" id="same" />
+  <img src="https://www.haldirams.com/media/catalog/tmp/category/savouries.jpg" className="d-block w-100" id="same" />
 <div className='container'>
 <h2 class="mt-5 text-center heading-bestseller">NAMKEEN</h2>
 <div className='product-group  p-5 m-5'>
