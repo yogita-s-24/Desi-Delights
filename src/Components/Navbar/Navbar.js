@@ -36,7 +36,7 @@ function Navbar() {
         <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/cookies">Cookies</Link >
       </li>
       <li className="nav-item ">
-        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/login">Login</Link >
+        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/aboutus">About Us</Link >
       </li>
       <li className="nav-item ">
         <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/signin">SignIn</Link >
