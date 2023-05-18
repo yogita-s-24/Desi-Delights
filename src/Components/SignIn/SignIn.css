@@ -1,12 +1,14 @@
+.margin{
+    background-color:white;
 
-
-
-.cover{
+    font-family:'Roboto',sans-serif;
+}
+.signup-box{
     width: 500px;
-    height: 700px;
+    height: 800px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 120px;
+    margin-top: 40px;
     background-color: #92E3A9;
     border-radius: 10px; 
     border:10px;
@@ -16,22 +18,24 @@ h1{
     text-align: center;
     padding-top: 20px;
 }
+h4{
+    text-align: center;
+}
 form{
-    width: 360px;
+    width: 320px;
     margin-left: 20px;
 }
 form label{
     display: flex;
-    margin-top: 30px;
-    font-size: 50px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 form input{
-    width: 460px;
+    width: 430px;
     padding: 10px;
     border: none;
     border: 1px solid grey;
     border-radius:7px;
-    display: flex;
 }
 input[type="button"]{
     width: 450px;
@@ -46,4 +50,33 @@ input[type="button"]{
 input[type="button"]:hover{
     background-color:cornflowerblue;
     color:blue;
+}
+p{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 16px;
+    text-decoration: none;
+}
+p a{
+    text-decoration: none;
+}
+.link1{
+    text-align: center;
+    color:blue;
+    font-size: 16px;
+    margin-top: 9px;
+    text-decoration: none;
+
+}
+.link2{
+    color:blue;
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+.login-a{
+    text-decoration: none;
+}
+.signup-a{
+    text-decoration: none;
 }
