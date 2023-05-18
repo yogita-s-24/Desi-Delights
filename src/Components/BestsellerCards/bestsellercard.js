@@ -13,7 +13,7 @@ function bestsellercard({name,imgUrl,btn,price}) {
       <div className="card-body">
         <h5 className="card-title card-font">{name}</h5>
         <p className="card-text">{price}</p>
-        <button className='btn btn-info-color'>{btn}</button>
+        <button className='btn btn-info-color' id="buttons" style={{backgroundColor:'red', color:'white'}}>{btn}</button>
       </div>
     </div>
   </div>
