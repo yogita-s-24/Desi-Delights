@@ -27,7 +27,7 @@ function Navbar() {
         <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/savories"> Savories</Link >
       </li>
       <li className="nav-item ">
-        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/sweet">Sweets</Link >
+        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/sweets">Sweets</Link >
       </li>
       <li className="nav-item">
         <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/gifting">Gifting</Link >

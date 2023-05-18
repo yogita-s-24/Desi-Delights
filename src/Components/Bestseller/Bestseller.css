@@ -2,6 +2,7 @@
 
 .product-group{
   display: flex;
+  justify-content:space-between;
   background-color:#e2131308;
   border-radius: 20px;
   
@@ -16,4 +17,5 @@
 .product-menu{
   flex-wrap: wrap;
   border: solid 2px black;
+  
 }
