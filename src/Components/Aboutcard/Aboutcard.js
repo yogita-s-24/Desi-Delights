@@ -1,6 +1,5 @@
 import React from 'react'
 import './Aboutcard.css'
-
 function Aboutcard({img,name,icon1,icon2,icon3}) {
 
   return (
