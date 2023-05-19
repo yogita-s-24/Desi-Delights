@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+.contactpage{
+    display: block;
+    height: 1000px;
+    width: 500px;
+    background-color: #dd99aa40;
+    margin-top: 50px;
+    margin-left: 400px;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 50px 50px 50px #f2a81e;
+}
+
+.contactpage:hover{
+    height: 1050px;
+    width: 550px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.form-label{
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.btn:hover{
+    height: 100%;
+    width: 20%;
+    color: #f2a81e;
+}
+.imgin{
+    height:200px;
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 50px;
+
+} 
+.imgin:hover{
+    height:250px;
+    width: 450px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px 5px #f305e3;
+}
