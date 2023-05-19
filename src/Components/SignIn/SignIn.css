@@ -1,82 +1,96 @@
-.margin{
-    background-color:white;
+.margin {
+    background-color: white;
 
-    font-family:'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-.signup-box{
+
+.signup-box {
     width: 500px;
     height: 800px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    background-color:  #f8bec5;
-    border:5px solid #a7c6e4;
-    border-radius: 10px; 
+    background-color: #f8bec5;
+    border: 5px solid #a7c6e4;
+    border-radius: 10px;
     cursor: pointer;
 }
-h1{
+
+h1 {
     text-align: center;
     padding-top: 20px;
 }
-h4{
+
+h4 {
     text-align: center;
 }
-form{
+
+.form {
     width: 320px;
     margin-left: 20px;
 }
-form label{
+
+form label {
     display: flex;
     margin-top: 20px;
     font-size: 20px;
 }
-form input{
+
+form input {
     width: 430px;
     padding: 10px;
     border: none;
     border: 1px solid rgb(5, 5, 5);
-    border-radius:7px;
+    border-radius: 7px;
 }
-input[type="button"]{
+
+button {
     width: 450px;
-    height:40px;
+    height: 40px;
     margin-top: 20px;
-    border:none;
-    background-color:rgb(224, 104, 168);
-    color:white;
-    font-size:18px;
+    border: none;
+    background-color: rgb(224, 104, 168);
+    color: white;
+    font-size: 18px;
     cursor: pointer;
 }
-input[type="button"]:hover{
-    background-color:rgb(186, 107, 159);
-    color:rgb(215, 151, 178);
+
+button:hover {
+    background-color: rgb(186, 107, 159);
+    color: rgb(215, 151, 178);
 }
-p{
+
+p {
     text-align: center;
     padding-top: 25px;
     font-size: 16px;
     text-decoration: none;
 }
-p a{
+
+p a {
     text-decoration: none;
 }
-.link1{
+
+.link1 {
     text-align: center;
-    color:blue;
+    color: blue;
     font-size: 16px;
     margin-top: 9px;
     text-decoration: none;
 
 }
-.link2{
-    color:blue;
+
+.link2 {
+    color: blue;
     margin-top: 30px;
     font-size: 16px;
     text-align: center;
 }
-.login-a{
+
+.login-a {
     text-decoration: none;
 }
-.signup-a{
+
+.signup-a {
     text-decoration: none;
 }
