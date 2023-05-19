@@ -20,9 +20,7 @@ function Aboutcard({img,name,para,hover,icon1,icon2,icon3}) {
         <img src={icon1} className="card-textnew"/>
         <img src={icon2} className="card-textnew"/>
         <img src={icon3} className="card-textnew"/>
-
-        
-      </div>
+        </div>
     </div>
   </div>
 </div>

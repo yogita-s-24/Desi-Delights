@@ -9,9 +9,6 @@ function Aboutus() {
   return (
     <div>
       <Navbar/>
-      
-      
-      
       <div className='contentgroupnew'>
       <Aboutcard className='cardsgroupnew' img='https://avatars.githubusercontent.com/u/124052924?v=4' name='Yogita Shete' icon1='https://cdn-icons-png.flaticon.com/128/3670/3670124.png' icon2='https://cdn-icons-png.flaticon.com/128/3955/3955024.png' icon3='https://cdn-icons-png.flaticon.com/128/3670/3670127.png' para='Project Manager: Responsible for overall planning of the project ' />
       <Aboutcard className='cardsgroupnew' img='https://avatars.githubusercontent.com/u/121605792?v=4' name='Rohanran dhave' icon1='https://cdn-icons-png.flaticon.com/128/3670/3670124.png' icon2='https://cdn-icons-png.flaticon.com/128/3955/3955024.png' icon3='https://cdn-icons-png.flaticon.com/128/3670/3670127.png' para='LeaLeads a specific team within the project guiding team members.'/>
@@ -26,24 +23,10 @@ function Aboutus() {
       <Aboutcard className='cardsgroupnew' img='https://avatars.githubusercontent.com/u/124019308?s=64&v=4' name='vishal Gaikwad' icon1='https://cdn-icons-png.flaticon.com/128/3670/3670124.png' icon2='https://cdn-icons-png.flaticon.com/128/3955/3955024.png' icon3='https://cdn-icons-png.flaticon.com/128/3670/3670127.png' para='Its important to note that the specific roles and responsibilities' />
       <Aboutcard className='cardsgroupnew' img='https://avatars.githubusercontent.com/u/124052924?v=4' name='Samiksha' icon1='https://cdn-icons-png.flaticon.com/128/3670/3670124.png' icon2='https://cdn-icons-png.flaticon.com/128/3955/3955024.png' icon3='https://cdn-icons-png.flaticon.com/128/3670/3670127.png' para='Develops written content, such as documentation, website copy '/>
       <Aboutcard className='cardsgroupnew' img='https://avatars.githubusercontent.com/u/124052924?v=4' name='Yogita Shete' icon1='https://cdn-icons-png.flaticon.com/128/3670/3670124.png' icon2='https://cdn-icons-png.flaticon.com/128/3955/3955024.png' icon3='https://cdn-icons-png.flaticon.com/128/3670/3670127.png' para='Project members work collaboratively with team members, project manager. '/>
-      
-
       </div>
       <Footer/>
-
       </div>
-      
-
-      
-      
-
-
-     
-    
-    
-
-    
-  )
+      )
 }
 
 export default Aboutus
