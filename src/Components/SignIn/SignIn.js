@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar'
 import "./SignIn.css"
 
 function SignIn() {
-  <Navbar/>
+  <Navbar />
   const [firstname, setFirstName] = useState('');
   const [lastname, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmedpassword, setConfirmedPassword] = useState('');
 
- 
+
 
   const handleFirstNameChange = (e) => {
     setFirstName(e.target.value);
@@ -39,47 +39,47 @@ function SignIn() {
     console.log('Password:', password);
   };
 
-  
+
 
   return (
     <>
-    <Navbar/>
-    <br/><br/><br/><br/>
-    <div className='signup-box'>
-      <h1>SignIn</h1>
-      <form onSubmit={handleSubmit}>
-      <div>
-          <label>FirstName:</label>
-          <input type="firstname" value={firstname} onChange={handleFirstNameChange} required />
-        </div>
-        <div>
-          <label>LastName:</label>
-          <input type="lastname" value={lastname} onChange={handleLastNameChange} required />
-        </div>
-        <div>
-          <label>Email:</label>
-          <input type="email" value={email} onChange={handleEmailChange} required />
-        </div>
-        <div>
-          <label>Password:</label>
-          <input type="password" value={password} onChange={handlePasswordChange} required />
-        </div>
-        <div>
-          <label>Confirmed Password:</label>
-          <input type="confirmedpassword" value={confirmedpassword} onChange={handleConfirmedPasswordChange} required />
-        </div>
+      <Navbar />
+      <br /><br /><br /><br />
+      <div className='signup-box'>
+        <h1>SignIn</h1>
+        <form onSubmit={handleSubmit}>
+          <div>
+            <label>FirstName:</label>
+            <input type="firstname" value={firstname} onChange={handleFirstNameChange} required />
+          </div>
+          <div>
+            <label>LastName:</label>
+            <input type="lastname" value={lastname} onChange={handleLastNameChange} required />
+          </div>
+          <div>
+            <label>Email:</label>
+            <input type="email" value={email} onChange={handleEmailChange} required />
+          </div>
+          <div>
+            <label>Password:</label>
+            <input type="password" value={password} onChange={handlePasswordChange} required />
+          </div>
+          <div>
+            <label>Confirmed Password:</label>
+            <input type="confirmedpassword" value={confirmedpassword} onChange={handleConfirmedPasswordChange} required />
+          </div>
 
-        <div>
-          <button type="submit">Submit</button>
-        </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
 
 
 
-      </form>
-      <p className='link1'>
-        Already have an account?{''}
-        <Link to="/login">Login here</Link></p> 
-    </div>
+        </form>
+        <p className='link1'>
+          Already have an account?{''}
+          <Link to="/login">Login here</Link></p>
+      </div>
     </>
   );
 }

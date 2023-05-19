@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar'
 import "./Login.css"
 
 function Login() {
-  <Navbar/>
+  <Navbar />
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -17,7 +17,7 @@ function Login() {
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
   };
-    const handleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Email:', email);
     console.log('Password:', password);
@@ -25,29 +25,29 @@ function Login() {
 
   return (
     <>
-    <Navbar/>
-    <br/><br/><br/><br/>
-    <div className='login-box'>
-      <h1>Login</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Email:</label>
-          <input type="email" value={email} onChange={handleEmailChange} required />
-        </div>
-        <div>
-          <label>Password:</label>
-          <input type="password" value={password} onChange={handlePasswordChange} required />
-        </div>
+      <Navbar />
+      <br /><br /><br /><br />
+      <div className='login-box'>
+        <h1>Login</h1>
+        <form onSubmit={handleSubmit}>
+          <div>
+            <label>Email:</label>
+            <input type="email" value={email} onChange={handleEmailChange} required />
+          </div>
+          <div>
+            <label>Password:</label>
+            <input type="password" value={password} onChange={handlePasswordChange} required />
+          </div>
 
-        <div>
-          <button type="submit">Submit</button>
-        </div>
-        
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+
         </form>
-      <p className='link2'>
-        Already have an account?{''}
-        <Link to="/signin">SignIn here</Link></p> 
-    </div>
+        <p className='link2'>
+          Already have an account?{''}
+          <Link to="/signin">SignIn here</Link></p>
+      </div>
     </>
   );
 }

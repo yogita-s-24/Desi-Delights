@@ -40,20 +40,24 @@ form label {
 form input {
     width: 430px;
     padding: 10px;
-    margin-left: 27px;
+    margin-left: 10px;
+    margin-right: 10px;
     border: none;
     border: 1px solid grey;
     border-radius: 7px;
 }
+
 button {
-    width: 450px;
+    width: 455px;
     height: 40px;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 15px;
+    margin-right: 19px;
     border: none;
     background-color: rgb(224, 104, 168);
     color: white;
     font-size: 18px;
+    border: 5px;
     cursor: pointer;
 }
 
@@ -78,5 +82,3 @@ p {
     text-decoration: none;
 
 }
-
-
