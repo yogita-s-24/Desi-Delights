@@ -1,17 +1,87 @@
-.contentgroup{
-    display: flex;
+.contentgroupnew{
+
+    display: flex; 
     margin-top: 100px;
-    height: 300;
-    width: 300;
+    margin-left: 300px;
+    margin-right: 300px ;
+    padding: 20px;
+    padding-left: 90px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    height: 600;
+    width: 600;
+    background-color:  #f1e2f1;
+    border-radius: 10px;
+    
+}
+.card-bodynew:hover{
+    /* background-color: rgb(241, 189, 238); */
     background-color: #E5B8F4;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 10px;
+    border-width: 10px;
     
+
+}
+.card-image{
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 50%;
+    border-width: 30px;
+   
+   height: 180px;
+   width: 180px;
+   
     
+    box-sizing: content-box;
+
+    
+
 }
 
-.cardsgroup{
-    height: 100px;
-    width: 100px;
+.card-textnew{
+    display: inline-flex;
+    width: 15px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+.card-bodynew{
+    background-color:white;
+    padding: 10px;
+    height: 200px;
+    border-radius: 10px;
+
 }
 
+.card-titlenew{
+    color: black;
+    font-size: 20px;
+
+}
+
+.card-textnew{
+    width: 50px;
+}
+
+.card-textnew:hover.card-textnew{
+    
+    
+    width: 70px;
+    box-shadow: #ab19dc;
+
+}
+
+.contentgroupnew:hover .contentgroupnew-content {
+    box-shadow: 10px;
+    border-radius: 20px;
+    
+
+  }
+
+  .card-description:hover.card-description{
+    color: red;
+  }
+  
+
+
+  
