@@ -19,13 +19,13 @@ function bestsellercard({ name, imgUrl, btn1, text, btn2, btn, price }) {
                 <span className='text-center'>{quantity}</span>
                 <button type="button" className="btn text-center btn-info-color negative" onClick={() => {
                   if (quantity == 0) {
-                    alert("Quantity can be 1")
+                    alert("Please select a minimum 1 product.")
                   }
                   else {
                     setQuantity(quantity - 1)
                   }
                 }}>-</button><br />
-                <button className='btn btn-info-color mt-3 buttons'>{btn}</button>
+                <button className='btn btn-info-color mt-3 buttons' onClick={() => (alert("Quantity added to cart"))}>{btn}</button>
               </div>
             </div>
           </div>
