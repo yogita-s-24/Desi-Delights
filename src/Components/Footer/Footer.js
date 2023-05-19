@@ -21,11 +21,7 @@ function Footer() {
           <li>Careers</li>
           <li>Contact Us</li>
           <br />
-          <h5>VIDEOS</h5>
-           
-              <a href="/brand"> <li>Brand Videos</li></a>
-              <a href="/recipe"> <li>Recipe Videos</li></a>
-
+          
         </div>
         <div className='heading-content'>
           <h5>OUR POLICIES</h5>

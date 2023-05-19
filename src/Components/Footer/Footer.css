@@ -2,7 +2,7 @@
    
     width: 100%;
     padding: 15px;
-    background-color:#f2a81e;
+    background-color:black;
     color: rgb(5, 5, 5);
     margin-top: 20px;
     display: flex;
@@ -12,14 +12,14 @@
 .heading-content{
     font-size: 20px;
     padding: 10px;
-    color: rgb(3, 2, 2);
+    color: white;
 }
 
 li{
     list-style: none;
   font-size: 16px;
   cursor: pointer;
-  color: rgb(6, 4, 4);
+  color: white;
    
 }
 .img-grp{
@@ -38,8 +38,8 @@ a{
     color: black;
 }
 .copy-right{
-    background-color: black;
-    color: white;
+    background-color: rgb(237, 189, 189);
+    color: black;
     padding: 10px;
     text-decoration: underline;
 }
