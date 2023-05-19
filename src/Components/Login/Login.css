@@ -1,0 +1,84 @@
+.margin {
+    background-color: white;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-box {
+    width: 500px;
+    height: 410px;
+    margin-left: 450px;
+    margin-right: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #f8bec5;
+    border: 5px solid #a7c6e4;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 320px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 27px;
+}
+
+form input {
+    width: 430px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+
+button {
+    width: 455px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 19px;
+    border: none;
+    background-color: rgb(224, 104, 168);
+    color: white;
+    font-size: 18px;
+    border: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(186, 107, 159);
+    color: rgb(215, 151, 178);
+}
+
+p {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.link2 {
+    text-align: center;
+    color: blue;
+    font-size: 16px;
+    margin-top: 9px;
+    text-decoration: none;
+
+}
