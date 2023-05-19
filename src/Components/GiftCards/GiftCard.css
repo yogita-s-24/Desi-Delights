@@ -1,47 +1,41 @@
 .menu-card {
     width: 250px;
     border: solid 1px black;
-  }
-  
-  .buttons {
-  
+}
+
+.buttons {
     background-color: #f2a81e;
-     color: Black;
-  
-  }
-  .buttons:hover {
+    color: Black;
+}
+
+.buttons:hover {
     background-color: #f2a81e;
-     color: Black;
-  
-  }
-  
-  
-  .card-font {
+    color: Black;
+}
+
+.card-font {
     font-size: 15px;
-  }
-  
-  .positive {
+}
+
+.positive {
     background-color: #f2a81e;
     transition: all 0.9s ease-in-out;
     height: 30px;
     margin-right: 25px;
-  
-  }
-  
-  .negative {
+}
+
+.negative {
     background-color: #f2a81e;
     transition: all 0.9s ease-in-out;
     height: 30px;
     margin: 5px;
     margin-left: 25px;
-  }
-  
-  .positive:hover {
+}
+
+.positive:hover {
     background-color: #f0ba55;
-    
-  }
-  
-  .negative:hover {
+}
+
+.negative:hover {
     background-color: #f1bf62;
-  }
-  
+}
