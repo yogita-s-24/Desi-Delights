@@ -6,7 +6,7 @@
 
 .signup-box {
     width: 500px;
-    height: 800px;
+    height: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -14,6 +14,8 @@
     border: 5px solid #a7c6e4;
     border-radius: 10px;
     cursor: pointer;
+    
+   
 }
 
 h1 {
@@ -34,11 +36,14 @@ form label {
     display: flex;
     margin-top: 20px;
     font-size: 20px;
+    margin-left: 27px;
+   
 }
 
 form input {
     width: 430px;
     padding: 10px;
+    margin-left: 27px;
     border: none;
     border: 1px solid rgb(5, 5, 5);
     border-radius: 7px;
@@ -48,6 +53,7 @@ button {
     width: 450px;
     height: 40px;
     margin-top: 20px;
+    margin-left: 25px;
     border: none;
     background-color: rgb(224, 104, 168);
     color: white;
@@ -67,9 +73,6 @@ p {
     text-decoration: none;
 }
 
-p a {
-    text-decoration: none;
-}
 
 .link1 {
     text-align: center;
@@ -78,19 +81,4 @@ p a {
     margin-top: 9px;
     text-decoration: none;
 
-}
-
-.link2 {
-    color: blue;
-    margin-top: 30px;
-    font-size: 16px;
-    text-align: center;
-}
-
-.login-a {
-    text-decoration: none;
-}
-
-.signup-a {
-    text-decoration: none;
 }

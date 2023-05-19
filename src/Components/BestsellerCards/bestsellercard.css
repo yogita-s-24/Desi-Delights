@@ -1,21 +1,46 @@
-
 .menu-card {
-    width: 250px;
-    /* height: 400px; */
-    /* padding: 5px; */
-    border: solid 1px black;
+  width: 250px;
+  border: solid 1px black;
 }
 
-#buttons{
-    background-color: #ff6666;
-    border: black 1px solid;
+.buttons {
+
+  background-color: #f2a81e;
+   color: Black;
+
 }
-#button:hover{
-    background-color: #4a0561;
-    color:white;
-    border: white 1px solid;
-}
-.card-font{
-    font-size: 15px;
+.buttons:hover {
+  background-color: #f2a81e;
+   color: Black;
+
 }
 
+
+.card-font {
+  font-size: 15px;
+}
+
+.positive {
+  background-color: #f2a81e;
+  transition: all 0.9s ease-in-out;
+  height: 30px;
+  margin-right: 25px;
+
+}
+
+.negative {
+  background-color: #f2a81e;
+  transition: all 0.9s ease-in-out;
+  height: 30px;
+  margin: 5px;
+  margin-left: 25px;
+}
+
+.positive:hover {
+  background-color: #f0ba55;
+  
+}
+
+.negative:hover {
+  background-color: #f1bf62;
+}

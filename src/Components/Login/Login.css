@@ -34,30 +34,32 @@ form label {
     display: flex;
     margin-top: 20px;
     font-size: 20px;
+    margin-left: 27px;
 }
 
 form input {
     width: 430px;
     padding: 10px;
+    margin-left: 27px;
     border: none;
     border: 1px solid grey;
     border-radius: 7px;
 }
-
-input[type="button"] {
+button {
     width: 450px;
     height: 40px;
     margin-top: 20px;
+    margin-left: 25px;
     border: none;
-    background-color: rgb(238, 156, 168);
+    background-color: rgb(224, 104, 168);
     color: white;
     font-size: 18px;
     cursor: pointer;
 }
 
-input[type="button"]:hover {
-    background-color: rgb(189, 137, 160);
-    color: rgb(227, 176, 196);
+button:hover {
+    background-color: rgb(186, 107, 159);
+    color: rgb(215, 151, 178);
 }
 
 p {
@@ -67,11 +69,8 @@ p {
     text-decoration: none;
 }
 
-p a {
-    text-decoration: none;
-}
 
-.link1 {
+.link2 {
     text-align: center;
     color: blue;
     font-size: 16px;
@@ -80,17 +79,4 @@ p a {
 
 }
 
-.link2 {
-    color: blue;
-    margin-top: 30px;
-    font-size: 16px;
-    text-align: center;
-}
 
-.login-a {
-    text-decoration: none;
-}
-
-.signup-a {
-    text-decoration: none;
-}

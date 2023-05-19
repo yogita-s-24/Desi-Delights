@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import Navbar from '../Navbar/Navbar'
 import "./Login.css"
 
-
 function Login() {
   <Navbar/>
 
@@ -18,11 +17,7 @@ function Login() {
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
   };
-
-
-
-
-  const handleSubmit = (e) => {
+    const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Email:', email);
     console.log('Password:', password);
@@ -47,10 +42,8 @@ function Login() {
         <div>
           <button type="submit">Submit</button>
         </div>
-
-
-
-      </form>
+        
+        </form>
       <p className='link2'>
         Already have an account?{''}
         <Link to="/signin">SignIn here</Link></p> 

@@ -1,0 +1,17 @@
+.contentgroup{
+    display: flex;
+    margin-top: 100px;
+    height: 300;
+    width: 300;
+    background-color: #E5B8F4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.cardsgroup{
+    height: 100px;
+    width: 100px;
+}
+
