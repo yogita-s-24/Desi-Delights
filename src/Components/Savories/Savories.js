@@ -9,7 +9,7 @@ function Savories() {
     <>
   <Navbar/>
   <Link to="/">
-  <img src="https://www.haldirams.com/media/catalog/tmp/category/savouries.jpg" className="d-block w-100" id="same" />
+  <img src="https://www.haldirams.com/media/catalog/tmp/category/savouries.jpg" className="d-block w-100 " id="same" />
   </Link>
 <div className='container'>
 <h2 class="mt-5 text-center heading-bestseller">NAMKEEN</h2>
