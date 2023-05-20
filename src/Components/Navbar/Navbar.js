@@ -38,9 +38,7 @@ function Navbar() {
       <li className="nav-item ">
         <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/aboutus">About Us</Link >
       </li>
-      <li className="nav-item ">
-        <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/contactus">ContactUs</Link >
-      </li>
+     
       <li className="nav-item ">
         <Link  className="nav-link active item-color" id="item"  aria-current="page" to="/login">Login</Link >
       </li>
@@ -51,7 +49,7 @@ function Navbar() {
     </ul>
     <form className="d-flex" role="search">
       <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button className="btn btn-outline-dark" type="submit" style={{height:'40px',marginTop:'6px'}}>Search</button>
+      <button className="btn btn-outline-dark" type="submit" style={{height:'40px', width:"70px",marginTop:'6px'}}>Search</button>
     </form>
   </div>
 </div>

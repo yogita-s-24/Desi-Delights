@@ -17,5 +17,6 @@
 .product-menu{
   flex-wrap: wrap;
   border: solid 2px black;
+  box-shadow: grey 0px 0px 5px 5px;
   
 }

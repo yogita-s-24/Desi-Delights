@@ -4,8 +4,9 @@
 }
 
 .buttons {
-
+ 
   background-color: #f2a81e;
+  width: 200px;
    color: Black;
 
 }
@@ -22,7 +23,9 @@
 
 .positive {
   background-color: #f2a81e;
+  text-align: center;
   transition: all 0.9s ease-in-out;
+  width:30px;
   height: 30px;
   margin-right: 25px;
 
@@ -31,8 +34,9 @@
 .negative {
   background-color: #f2a81e;
   transition: all 0.9s ease-in-out;
+  width:30px;
   height: 30px;
-  margin: 5px;
+ 
   margin-left: 25px;
 }
 
