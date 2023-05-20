@@ -4,7 +4,7 @@ import "./Home.css"
 import Navbar from '../Navbar/Navbar'
 import Slider from '../Slider/Slider'
 import Bestseller from '../Bestseller/bestseller'
-import BestsellerCards from '../BestsellerCards/bestsellercard'
+import BestsellerCards from '../BestsellerCards/Bestsellercard'
 import Footer from '../Footer/Footer'
 
 

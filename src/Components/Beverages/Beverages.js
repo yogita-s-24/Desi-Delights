@@ -1,7 +1,7 @@
  import './Beverages.css'
 import React from 'react'
  import Navbar from '../Navbar/Navbar'
- import BestsellerCards from '../BestsellerCards/bestsellercard'
+ import BestsellerCards from '../BestsellerCards/Bestsellercard'
 
   import Footer from '../Footer/Footer'
    function Beverages() {

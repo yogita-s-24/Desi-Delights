@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import "./bestsellercard.css"
 
-function bestsellercard({ name, imgUrl, btn1, text, btn2, btn, price }) {
+function Bestsellercards({ name, imgUrl, btn1, text, btn2, btn, price }) {
   const [quantity, setQuantity] = useState(1);
 
   return (
@@ -35,4 +35,4 @@ function bestsellercard({ name, imgUrl, btn1, text, btn2, btn, price }) {
   )
 }
 
-export default bestsellercard
+export default Bestsellercards

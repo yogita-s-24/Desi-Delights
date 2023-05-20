@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sweets.css'
 import Navbar from '../Navbar/Navbar'
-import BestsellerCards from '../BestsellerCards/bestsellercard'
+import BestsellerCards from '../BestsellerCards/Bestsellercard'
 import { Link } from "react-router-dom"
 import Footer from '../Footer/Footer'
 

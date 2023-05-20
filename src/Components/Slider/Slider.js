@@ -115,7 +115,7 @@ function Slider() {
           data-bs-target="#carouselExampleFade"
           data-bs-slide="prev">
           <span
-            className="carousel-control-prev-icon"
+            className="carousel-control-prev-icon mt-3"
             aria-hidden="true"></span>
           <span className="visually-hidden">Previous</span>
         </button>
@@ -125,7 +125,7 @@ function Slider() {
           data-bs-target="#carouselExampleFade"
           data-bs-slide="next">
           <span
-            className="carousel-control-next-icon"
+            className="carousel-control-next-icon  mt-3"
             aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>

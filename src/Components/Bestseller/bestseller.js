@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Bestseller.css"
-import BestsellerCards from '../BestsellerCards/bestsellercard'
+import BestsellerCards from '../BestsellerCards/Bestsellercard'
 
-function Bestseller() {
+function bestseller() {
     return (
 <>
 <div className='container'>
@@ -52,4 +52,4 @@ function Bestseller() {
     )
 }
 
-export default Bestseller
+export default bestseller
