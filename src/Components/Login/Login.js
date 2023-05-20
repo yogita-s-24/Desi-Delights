@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar'
 import "./Login.css"
+import Footer from '../Footer/Footer'
 
 function Login() {
   <Navbar />
@@ -48,6 +49,8 @@ function Login() {
           Already have an account?{''}
           <Link to="/signin">SignIn here</Link></p>
       </div>
+      <br/><br/><br/><br/>
+      <Footer/>
     </>
   );
 }
