@@ -16,6 +16,7 @@ import Sweets from './Components/Sweets/Sweets';
 import Gifting from './Components/Gifting/Gifting';
 import Cookies from './Components/Cookies/Cookies';
 import Aboutus from './Components/Aboutus/Aboutus'
+import Login from './Components/Login/Login'
 import SignIn from './Components/SignIn/SignIn';
 
 
@@ -32,6 +33,7 @@ function App() {
                 < Route path="/gifting" element={< Gifting />} />
                 < Route path="/cookies" element={< Cookies />} />
                 < Route path="/aboutus" element={< Aboutus />} />
+                < Route path="/login" element={< Login />} />
                 < Route path="/signin" element={< SignIn />} />
             </Routes>
         </BrowserRouter>

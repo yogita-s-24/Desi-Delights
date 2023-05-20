@@ -42,7 +42,7 @@
 
 .card-textnew{
     display: inline-flex;
-    width: 15px;
+    width: 10px;
     padding: 2px;
     margin-bottom: 20px;
 }
@@ -64,12 +64,9 @@
     width: 50px;
 }
 
-.card-textnew:hover.card-textnew{
-    
-    
-    width: 70px;
-    box-shadow: #ab19dc;
-
+.cardsgroup{
+    height: 100px;
+    width: 100px;
 }
 
 .contentgroupnew:hover .contentgroupnew-content {

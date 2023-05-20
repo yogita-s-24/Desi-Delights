@@ -1,0 +1,85 @@
+.margin {
+    background-color: white;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-box {
+    width: 500px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #f8bec5;
+    border: 5px solid #a7c6e4;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.form {
+    width: 320px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+form input {
+    width: 430px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 7px;
+}
+
+button {
+    width: 425px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 19px;
+    border: none;
+    background-color: rgb(224, 104, 168);
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(186, 107, 159);
+    color: rgb(215, 151, 178);
+}
+
+p {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.link1 {
+    text-align: center;
+    color: blue;
+    font-size: 16px;
+    margin-top: 9px;
+    text-decoration: none;
+
+}

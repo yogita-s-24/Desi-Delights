@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+.product-group{
+  display: flex;
+  background-color: #dd99aa40;
+  border-radius: 20px;
+}
+
+.heading-bestseller{
+  color:black;
+}
+
+.product-menu{
+  font-size: 10px;
+}
+.img-savie{
+  height: 150px;
+  width: 925px;
+}
+
+@media screen and (max-width: 600px)
+{
+  .product-group{
+    display: block;
+    flex-direction: column;
+    background-color: #dd99aa40;
+    border-radius: 20px;
+  }
+  .menu-card {
+    width: 250px;
+    height: 375px;
+    padding: 4px;
+    margin: 10px;
+
+  }
+       
+}

@@ -2,8 +2,7 @@ import { hover } from '@testing-library/user-event/dist/hover'
 import React from 'react'
 import './Aboutcard.css'
 
-
-function Aboutcard({img,name,para,hover,icon1,icon2,icon3}) {
+function Aboutcard({img,name,para,icon1,icon2,icon3}) {
 
   return (
     <>
